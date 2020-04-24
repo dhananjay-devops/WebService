@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Welcome to Hello World!"
 
 def word_list_anagram(word):
   try:
